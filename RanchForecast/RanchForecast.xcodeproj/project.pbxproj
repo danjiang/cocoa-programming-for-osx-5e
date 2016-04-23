@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EF45701BD0986C00E1CAFE /* CourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF456F1BD0986C00E1CAFE /* CourseTests.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45721BD0999300E1CAFE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45711BD0999300E1CAFE /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45741BD09C3900E1CAFE /* ScheduleFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45731BD09C3900E1CAFE /* ScheduleFetcherTests.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45751BD09D3B00E1CAFE /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8259D1BCF9C4E00DE9F4D /* ScheduleFetcher.swift */; settings = {ASSET_TAGS = (); }; };
+		40F8258B1BCF9A3C00DE9F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8258A1BCF9A3C00DE9F4D /* AppDelegate.swift */; };
+		40F8258D1BCF9A3C00DE9F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F8258C1BCF9A3C00DE9F4D /* Assets.xcassets */; };
+		40F825901BCF9A3C00DE9F4D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F8258E1BCF9A3C00DE9F4D /* MainMenu.xib */; };
+		40F825991BCF9A7900DE9F4D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F825971BCF9A7900DE9F4D /* MainWindowController.swift */; settings = {ASSET_TAGS = (); }; };
+		40F8259A1BCF9A7900DE9F4D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F825981BCF9A7900DE9F4D /* MainWindowController.xib */; settings = {ASSET_TAGS = (); }; };
+		40F8259C1BCF9AEC00DE9F4D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8259B1BCF9AEC00DE9F4D /* Course.swift */; settings = {ASSET_TAGS = (); }; };
+		40F8259E1BCF9C4E00DE9F4D /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8259D1BCF9C4E00DE9F4D /* ScheduleFetcher.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40EF456A1BD0903900E1CAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F8257F1BCF9A3C00DE9F4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F825861BCF9A3C00DE9F4D;
+			remoteInfo = RanchForecast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40EF45651BD0903900E1CAFE /* RanchForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RanchForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF45691BD0903900E1CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EF456F1BD0986C00E1CAFE /* CourseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTests.swift; sourceTree = "<group>"; };
+		40EF45711BD0999300E1CAFE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40EF45731BD09C3900E1CAFE /* ScheduleFetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcherTests.swift; sourceTree = "<group>"; };
+		40F825871BCF9A3C00DE9F4D /* RanchForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F8258A1BCF9A3C00DE9F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F8258C1BCF9A3C00DE9F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F8258F1BCF9A3C00DE9F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40F825911BCF9A3C00DE9F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F825971BCF9A7900DE9F4D /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		40F825981BCF9A7900DE9F4D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		40F8259B1BCF9AEC00DE9F4D /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		40F8259D1BCF9C4E00DE9F4D /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EF45621BD0903900E1CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F825841BCF9A3C00DE9F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EF45661BD0903900E1CAFE /* RanchForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				40EF45691BD0903900E1CAFE /* Info.plist */,
+				40EF456F1BD0986C00E1CAFE /* CourseTests.swift */,
+				40EF45711BD0999300E1CAFE /* Constants.swift */,
+				40EF45731BD09C3900E1CAFE /* ScheduleFetcherTests.swift */,
+			);
+			path = RanchForecastTests;
+			sourceTree = "<group>";
+		};
+		40F8257E1BCF9A3C00DE9F4D = {
+			isa = PBXGroup;
+			children = (
+				40F825891BCF9A3C00DE9F4D /* RanchForecast */,
+				40EF45661BD0903900E1CAFE /* RanchForecastTests */,
+				40F825881BCF9A3C00DE9F4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F825881BCF9A3C00DE9F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F825871BCF9A3C00DE9F4D /* RanchForecast.app */,
+				40EF45651BD0903900E1CAFE /* RanchForecastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F825891BCF9A3C00DE9F4D /* RanchForecast */ = {
+			isa = PBXGroup;
+			children = (
+				40F8258A1BCF9A3C00DE9F4D /* AppDelegate.swift */,
+				40F8258C1BCF9A3C00DE9F4D /* Assets.xcassets */,
+				40F8258E1BCF9A3C00DE9F4D /* MainMenu.xib */,
+				40F825911BCF9A3C00DE9F4D /* Info.plist */,
+				40F825971BCF9A7900DE9F4D /* MainWindowController.swift */,
+				40F825981BCF9A7900DE9F4D /* MainWindowController.xib */,
+				40F8259B1BCF9AEC00DE9F4D /* Course.swift */,
+				40F8259D1BCF9C4E00DE9F4D /* ScheduleFetcher.swift */,
+			);
+			path = RanchForecast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EF45641BD0903900E1CAFE /* RanchForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF456E1BD0903900E1CAFE /* Build configuration list for PBXNativeTarget "RanchForecastTests" */;
+			buildPhases = (
+				40EF45611BD0903900E1CAFE /* Sources */,
+				40EF45621BD0903900E1CAFE /* Frameworks */,
+				40EF45631BD0903900E1CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EF456B1BD0903900E1CAFE /* PBXTargetDependency */,
+			);
+			name = RanchForecastTests;
+			productName = RanchForecastTests;
+			productReference = 40EF45651BD0903900E1CAFE /* RanchForecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40F825861BCF9A3C00DE9F4D /* RanchForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F825941BCF9A3C00DE9F4D /* Build configuration list for PBXNativeTarget "RanchForecast" */;
+			buildPhases = (
+				40F825831BCF9A3C00DE9F4D /* Sources */,
+				40F825841BCF9A3C00DE9F4D /* Frameworks */,
+				40F825851BCF9A3C00DE9F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanchForecast;
+			productName = RanchForecast;
+			productReference = 40F825871BCF9A3C00DE9F4D /* RanchForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F8257F1BCF9A3C00DE9F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dan Thought Studio";
+				TargetAttributes = {
+					40EF45641BD0903900E1CAFE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 40F825861BCF9A3C00DE9F4D;
+					};
+					40F825861BCF9A3C00DE9F4D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 40F825821BCF9A3C00DE9F4D /* Build configuration list for PBXProject "RanchForecast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F8257E1BCF9A3C00DE9F4D;
+			productRefGroup = 40F825881BCF9A3C00DE9F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F825861BCF9A3C00DE9F4D /* RanchForecast */,
+				40EF45641BD0903900E1CAFE /* RanchForecastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EF45631BD0903900E1CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F825851BCF9A3C00DE9F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F8258D1BCF9A3C00DE9F4D /* Assets.xcassets in Resources */,
+				40F8259A1BCF9A7900DE9F4D /* MainWindowController.xib in Resources */,
+				40F825901BCF9A3C00DE9F4D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EF45611BD0903900E1CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF45701BD0986C00E1CAFE /* CourseTests.swift in Sources */,
+				40EF45741BD09C3900E1CAFE /* ScheduleFetcherTests.swift in Sources */,
+				40EF45751BD09D3B00E1CAFE /* ScheduleFetcher.swift in Sources */,
+				40EF45721BD0999300E1CAFE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F825831BCF9A3C00DE9F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F8259C1BCF9AEC00DE9F4D /* Course.swift in Sources */,
+				40F825991BCF9A7900DE9F4D /* MainWindowController.swift in Sources */,
+				40F8259E1BCF9C4E00DE9F4D /* ScheduleFetcher.swift in Sources */,
+				40F8258B1BCF9A3C00DE9F4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40EF456B1BD0903900E1CAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F825861BCF9A3C00DE9F4D /* RanchForecast */;
+			targetProxy = 40EF456A1BD0903900E1CAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F8258E1BCF9A3C00DE9F4D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F8258F1BCF9A3C00DE9F4D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EF456C1BD0903900E1CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RanchForecast.app/Contents/MacOS/RanchForecast";
+			};
+			name = Debug;
+		};
+		40EF456D1BD0903900E1CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RanchForecast.app/Contents/MacOS/RanchForecast";
+			};
+			name = Release;
+		};
+		40F825921BCF9A3C00DE9F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40F825931BCF9A3C00DE9F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40F825951BCF9A3C00DE9F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40F825961BCF9A3C00DE9F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EF456E1BD0903900E1CAFE /* Build configuration list for PBXNativeTarget "RanchForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF456C1BD0903900E1CAFE /* Debug */,
+				40EF456D1BD0903900E1CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40F825821BCF9A3C00DE9F4D /* Build configuration list for PBXProject "RanchForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F825921BCF9A3C00DE9F4D /* Debug */,
+				40F825931BCF9A3C00DE9F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F825941BCF9A3C00DE9F4D /* Build configuration list for PBXNativeTarget "RanchForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F825951BCF9A3C00DE9F4D /* Debug */,
+				40F825961BCF9A3C00DE9F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F8257F1BCF9A3C00DE9F4D /* Project object */;
+}

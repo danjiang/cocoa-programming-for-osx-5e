@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EF45831BD0AA3200E1CAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45821BD0AA3200E1CAFE /* AppDelegate.swift */; };
+		40EF45851BD0AA3200E1CAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EF45841BD0AA3200E1CAFE /* Assets.xcassets */; };
+		40EF45881BD0AA3200E1CAFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EF45861BD0AA3200E1CAFE /* MainMenu.xib */; };
+		40EF45911BD0AAE300E1CAFE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF458F1BD0AAE300E1CAFE /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45921BD0AAE300E1CAFE /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EF45901BD0AAE300E1CAFE /* ImageViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		40EF45941BD0D03200E1CAFE /* NerdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45931BD0D03200E1CAFE /* NerdTabViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40EF457F1BD0AA3200E1CAFE /* ViewControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF45821BD0AA3200E1CAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EF45841BD0AA3200E1CAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EF45871BD0AA3200E1CAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40EF45891BD0AA3200E1CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EF458F1BD0AAE300E1CAFE /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		40EF45901BD0AAE300E1CAFE /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		40EF45931BD0D03200E1CAFE /* NerdTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerdTabViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EF457C1BD0AA3200E1CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EF45761BD0AA3200E1CAFE = {
+			isa = PBXGroup;
+			children = (
+				40EF45811BD0AA3200E1CAFE /* ViewControl */,
+				40EF45801BD0AA3200E1CAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40EF45801BD0AA3200E1CAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EF457F1BD0AA3200E1CAFE /* ViewControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EF45811BD0AA3200E1CAFE /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				40EF45821BD0AA3200E1CAFE /* AppDelegate.swift */,
+				40EF45841BD0AA3200E1CAFE /* Assets.xcassets */,
+				40EF45861BD0AA3200E1CAFE /* MainMenu.xib */,
+				40EF45891BD0AA3200E1CAFE /* Info.plist */,
+				40EF458F1BD0AAE300E1CAFE /* ImageViewController.swift */,
+				40EF45901BD0AAE300E1CAFE /* ImageViewController.xib */,
+				40EF45931BD0D03200E1CAFE /* NerdTabViewController.swift */,
+			);
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EF457E1BD0AA3200E1CAFE /* ViewControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF458C1BD0AA3200E1CAFE /* Build configuration list for PBXNativeTarget "ViewControl" */;
+			buildPhases = (
+				40EF457B1BD0AA3200E1CAFE /* Sources */,
+				40EF457C1BD0AA3200E1CAFE /* Frameworks */,
+				40EF457D1BD0AA3200E1CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewControl;
+			productName = ViewControl;
+			productReference = 40EF457F1BD0AA3200E1CAFE /* ViewControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EF45771BD0AA3200E1CAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dan Thought Studio";
+				TargetAttributes = {
+					40EF457E1BD0AA3200E1CAFE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 40EF457A1BD0AA3200E1CAFE /* Build configuration list for PBXProject "ViewControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EF45761BD0AA3200E1CAFE;
+			productRefGroup = 40EF45801BD0AA3200E1CAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EF457E1BD0AA3200E1CAFE /* ViewControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EF457D1BD0AA3200E1CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF45851BD0AA3200E1CAFE /* Assets.xcassets in Resources */,
+				40EF45921BD0AAE300E1CAFE /* ImageViewController.xib in Resources */,
+				40EF45881BD0AA3200E1CAFE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EF457B1BD0AA3200E1CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF45911BD0AAE300E1CAFE /* ImageViewController.swift in Sources */,
+				40EF45941BD0D03200E1CAFE /* NerdTabViewController.swift in Sources */,
+				40EF45831BD0AA3200E1CAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40EF45861BD0AA3200E1CAFE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EF45871BD0AA3200E1CAFE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EF458A1BD0AA3200E1CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EF458B1BD0AA3200E1CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40EF458D1BD0AA3200E1CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ViewControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.ViewControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40EF458E1BD0AA3200E1CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ViewControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.ViewControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EF457A1BD0AA3200E1CAFE /* Build configuration list for PBXProject "ViewControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF458A1BD0AA3200E1CAFE /* Debug */,
+				40EF458B1BD0AA3200E1CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EF458C1BD0AA3200E1CAFE /* Build configuration list for PBXNativeTarget "ViewControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF458D1BD0AA3200E1CAFE /* Debug */,
+				40EF458E1BD0AA3200E1CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EF45771BD0AA3200E1CAFE /* Project object */;
+}

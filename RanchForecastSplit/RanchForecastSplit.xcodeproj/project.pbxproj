@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EF45A21BD0E11900E1CAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45A11BD0E11900E1CAFE /* AppDelegate.swift */; };
+		40EF45A41BD0E11900E1CAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45A31BD0E11900E1CAFE /* ViewController.swift */; };
+		40EF45A61BD0E11900E1CAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EF45A51BD0E11900E1CAFE /* Assets.xcassets */; };
+		40EF45A91BD0E11A00E1CAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EF45A71BD0E11A00E1CAFE /* Main.storyboard */; };
+		40EF45B21BD0E4FF00E1CAFE /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45B01BD0E4FF00E1CAFE /* Course.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45B31BD0E4FF00E1CAFE /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45B11BD0E4FF00E1CAFE /* ScheduleFetcher.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45B51BD0E59400E1CAFE /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45B41BD0E59400E1CAFE /* CourseListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45B71BD0E82300E1CAFE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45B61BD0E82300E1CAFE /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		40EF45B91BD0EA8D00E1CAFE /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF45B81BD0EA8D00E1CAFE /* MainSplitViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401C77CD1BD34E0200497325 /* RanchForecastSplit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RanchForecastSplit.entitlements; sourceTree = "<group>"; };
+		40EF459E1BD0E11900E1CAFE /* RanchForecastSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecastSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF45A11BD0E11900E1CAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EF45A31BD0E11900E1CAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40EF45A51BD0E11900E1CAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EF45A81BD0E11A00E1CAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40EF45AA1BD0E11A00E1CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EF45B01BD0E4FF00E1CAFE /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		40EF45B11BD0E4FF00E1CAFE /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
+		40EF45B41BD0E59400E1CAFE /* CourseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
+		40EF45B61BD0E82300E1CAFE /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		40EF45B81BD0EA8D00E1CAFE /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EF459B1BD0E11900E1CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EF45951BD0E11900E1CAFE = {
+			isa = PBXGroup;
+			children = (
+				40EF45A01BD0E11900E1CAFE /* RanchForecastSplit */,
+				40EF459F1BD0E11900E1CAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40EF459F1BD0E11900E1CAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EF459E1BD0E11900E1CAFE /* RanchForecastSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EF45A01BD0E11900E1CAFE /* RanchForecastSplit */ = {
+			isa = PBXGroup;
+			children = (
+				401C77CD1BD34E0200497325 /* RanchForecastSplit.entitlements */,
+				40EF45B01BD0E4FF00E1CAFE /* Course.swift */,
+				40EF45B11BD0E4FF00E1CAFE /* ScheduleFetcher.swift */,
+				40EF45A11BD0E11900E1CAFE /* AppDelegate.swift */,
+				40EF45A31BD0E11900E1CAFE /* ViewController.swift */,
+				40EF45A51BD0E11900E1CAFE /* Assets.xcassets */,
+				40EF45A71BD0E11A00E1CAFE /* Main.storyboard */,
+				40EF45AA1BD0E11A00E1CAFE /* Info.plist */,
+				40EF45B41BD0E59400E1CAFE /* CourseListViewController.swift */,
+				40EF45B61BD0E82300E1CAFE /* WebViewController.swift */,
+				40EF45B81BD0EA8D00E1CAFE /* MainSplitViewController.swift */,
+			);
+			path = RanchForecastSplit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EF459D1BD0E11900E1CAFE /* RanchForecastSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF45AD1BD0E11A00E1CAFE /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */;
+			buildPhases = (
+				40EF459A1BD0E11900E1CAFE /* Sources */,
+				40EF459B1BD0E11900E1CAFE /* Frameworks */,
+				40EF459C1BD0E11900E1CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanchForecastSplit;
+			productName = RanchForecastSplit;
+			productReference = 40EF459E1BD0E11900E1CAFE /* RanchForecastSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EF45961BD0E11900E1CAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dan Thought Studio";
+				TargetAttributes = {
+					40EF459D1BD0E11900E1CAFE = {
+						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 40EF45991BD0E11900E1CAFE /* Build configuration list for PBXProject "RanchForecastSplit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EF45951BD0E11900E1CAFE;
+			productRefGroup = 40EF459F1BD0E11900E1CAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EF459D1BD0E11900E1CAFE /* RanchForecastSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EF459C1BD0E11900E1CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF45A61BD0E11900E1CAFE /* Assets.xcassets in Resources */,
+				40EF45A91BD0E11A00E1CAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EF459A1BD0E11900E1CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF45B21BD0E4FF00E1CAFE /* Course.swift in Sources */,
+				40EF45B71BD0E82300E1CAFE /* WebViewController.swift in Sources */,
+				40EF45B51BD0E59400E1CAFE /* CourseListViewController.swift in Sources */,
+				40EF45B91BD0EA8D00E1CAFE /* MainSplitViewController.swift in Sources */,
+				40EF45A41BD0E11900E1CAFE /* ViewController.swift in Sources */,
+				40EF45B31BD0E4FF00E1CAFE /* ScheduleFetcher.swift in Sources */,
+				40EF45A21BD0E11900E1CAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40EF45A71BD0E11A00E1CAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EF45A81BD0E11A00E1CAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EF45AB1BD0E11A00E1CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EF45AC1BD0E11A00E1CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40EF45AE1BD0E11A00E1CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RanchForecastSplit/RanchForecastSplit.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecastSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40EF45AF1BD0E11A00E1CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RanchForecastSplit/RanchForecastSplit.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danthought.RanchForecastSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EF45991BD0E11900E1CAFE /* Build configuration list for PBXProject "RanchForecastSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF45AB1BD0E11A00E1CAFE /* Debug */,
+				40EF45AC1BD0E11A00E1CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EF45AD1BD0E11A00E1CAFE /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF45AE1BD0E11A00E1CAFE /* Debug */,
+				40EF45AF1BD0E11A00E1CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EF45961BD0E11900E1CAFE /* Project object */;
+}
